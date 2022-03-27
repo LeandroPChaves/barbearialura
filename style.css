@@ -284,14 +284,14 @@ table td{
     /*Produto responsivo*/
     .produtos{
         display: inline-block;
-        width: 635px;
+        width: 400px;
         margin: 2% auto;
     }
     .cabelo, .barba, .cabelobarba{
-        margin: 3%;
+        margin: 2%;
     }
     .imgproduto{
-        margin: 0 28%;
+        margin: 0 15%;
     }
     /*Contato responsivo*/
     .maincontato{
