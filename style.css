@@ -229,44 +229,57 @@ table td{
 }
 
 /*Index responsivo*/
-@media(max-width:700px){
+@media(max-width:500px){
     body{
-        width: 700px;
+        width: 410px;
+        margin: auto;
+        
+    }
+    header{
+        width: 410px;
         margin: auto;
     }
     .lista li{
         padding: 2px;
-        margin: 0 10px 0 0;
+        margin: 0 5px 0 0;
+        font-size: 14px;
     }
     .descricao{
-        width: 680px;
+        width: 100%;
         margin: auto;
     }
     .descricao p{
-        width: 550px;
+        font-size: 8px;
+        width: 350px;
     }
     .imgutensilios{
-        height: 150px;
+        height: 80px;
+        width: 80px;
     }
     .localizacao{
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
     }
     .mapa iframe{
         width: 400px;
         height: 200px;
+        margin: 0 0 0 -5%
     }
     .beneficios{
-        width: 580px;
-        margin: auto; 
+        width: 390px;
+    }
+    .imgbeneficios{
+        width: 50%;
+        height: 200px;
     }
     .video{
-        width: 600px;
+        width: 100%;
         margin: auto; 
     }
     .video iframe{
         width: 400px;
         height: 200px;
+        margin: 0 0 0 -14%
     }
     /*Produto responsivo*/
     .produtos{
