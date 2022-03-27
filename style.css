@@ -295,11 +295,15 @@ table td{
     }
     /*Contato responsivo*/
     .maincontato{
-        width: 700px;
+        width: 400px;
         margin: 3% 3%;
     }
     #inputnome, #email, #telefone, #mensagem{
         border: 2px solid #000000;
+        width: 380px;
+    }
+    .novidades{
+        width: 10%;
     }
 
 }
