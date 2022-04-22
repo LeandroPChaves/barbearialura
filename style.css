@@ -239,6 +239,9 @@ table td{
         width: 410px;
         margin: auto;
     }
+    .imgmenu{
+        height: 100px;
+    }
     .lista li{
         padding: 2px;
         margin: 0 5px 0 0;
